@@ -97,7 +97,6 @@ class TagsInputWidget(TagsInputWidgetBase):
         if enable_jquery:  # pragma: no cover
             css['all'] += 'jquery-ui-1.12.1.min.css',
             js = (
-                'jquery-3.2.1.min.js',
                 'jquery-ui-1.12.1.min.js',
             ) + js
 
@@ -120,7 +119,6 @@ class AdminTagsInputWidget(
             ),
         })
         js = getattr(settings, 'TAGS_INPUT_ADMIN_JS', (
-            'jquery-3.2.1.min.js',
             'jquery-ui-1.12.1.min.js',
             'jquery.tagsinput-revisited-2.0.min.js',
         ))

@@ -4,3 +4,5 @@ dist
 *.egg
 docs/_build
 cover
+.idea/
+venv
